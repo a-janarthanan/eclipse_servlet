@@ -9,7 +9,7 @@
     <welcome-file>default.htm</welcome-file>
     <welcome-file>default.jsp</welcome-file>
   </welcome-file-list>
-  
+
  <!-- <servlet>
 <servlet-name>MyGenericServlet</servlet-name>
 <servlet-class>ExampleGeneric</servlet-class>
@@ -22,14 +22,11 @@
 </servlet-mapping> -->
 
 <servlet>
- <servlet-name>BeginnersBook</servlet-name>
- <servlet-class>ExampleGeneric</servlet-class>
+ <servlet-name>ExampleGeneric</servlet-name>
+ <servlet-class>defaultpackage.ExampleGeneric</servlet-class>
 </servlet>
 <servlet-mapping>
- <servlet-name>BeginnersBook</servlet-name>
+ <servlet-name>ExampleGeneric</servlet-name>
  <url-pattern>/details</url-pattern>
 </servlet-mapping>
-
-
-
 </web-app>
